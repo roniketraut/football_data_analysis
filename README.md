@@ -1,19 +1,35 @@
 # football_data_analysis
 
-Here’s a more professional version of your project description:
-
 Project Overview
-This project involved analyzing a dataset spanning five seasons, obtained from Kaggle. The workflow included the following key stages:
+This project focuses on analyzing a multi-season dataset obtained from Kaggle. The dataset spans five seasons and was processed through several key stages to derive actionable insights:
 
-Data Acquisition and Cleaning:
+1. Data Acquisition and Cleaning
+The raw dataset was acquired from Kaggle and pre-processed using Python's pandas library. During this phase, I ensured data consistency by:
 
-The raw dataset was pre-processed and cleaned using Python’s pandas library to ensure consistency, handle missing values, and optimize data for analysis.
-Database Integration:
+Handling missing or inconsistent values
+Removing outliers and duplicates
+Standardizing column names and formats
+The data was optimized for efficient querying and analysis in subsequent stages.
 
-The cleaned data was imported into a SQL database, leveraging PostgreSQL for efficient storage and querying.
-Data Analysis:
+2. Database Integration
+Once the dataset was cleaned, I imported it into a PostgreSQL database. This involved:
 
-In-depth analysis was conducted using advanced SQL queries in PostgreSQL to extract meaningful insights and patterns.
-Visualization and Reporting:
+Designing the database schema for efficient storage
+Writing SQL scripts to create tables and relationships
+Ensuring data integrity during the import process
+PostgreSQL was chosen for its scalability and powerful querying capabilities, allowing for efficient handling of large datasets.
 
-Finally, a comprehensive dashboard and additional analytics were developed in Power BI, providing actionable insights and interactive visualizations.
+3. Data Analysis
+In-depth analysis was conducted using advanced SQL queries within the PostgreSQL environment. Key tasks included:
+
+Writing complex queries to extract insights and identify patterns in the data
+Using SQL aggregation, joins, and subqueries to derive key metrics and trends
+Optimizing queries for performance by indexing frequently accessed columns
+This stage was critical in uncovering meaningful insights from the raw data, focusing on data relationships and trends over the seasons.
+
+4. Visualization and Reporting
+The final stage of the project involved creating interactive visualizations and reports using Power BI. Here, I focused on the following:
+
+Power Query Editor: I utilized Power BI's Query Editor to clean, transform, and prepare the data for visualization. This included merging, filtering, and reshaping data from multiple tables.
+DAX (Data Analysis Expressions): I applied advanced DAX formulas to create calculated columns and measures, allowing for dynamic, on-the-fly calculations and time-based analysis.
+Interactive Dashboards: The dashboard offers a comprehensive view of key metrics, such as player performance, team statistics, and match outcomes across seasons. Visualizations were designed for clarity and ease of use, providing actionable insights.
