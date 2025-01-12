@@ -36,6 +36,18 @@ Visualization and Reporting(https://github.com/roniketraut/football_data_analysi
 
 The final stage of the project involved creating interactive visualizations and reports using Power BI. Here, I focused on the following:
 
-Power Query Editor: I utilized Power BI's Query Editor to clean, transform, and prepare the data for visualization. This included merging, filtering, and reshaping data from multiple tables.
+Power Query Editor: I utilized Power BI's Query Editor to clean, transform, and prepare the data for visualization. This included merging, filtering, and reshaping data from multiple tables. 
+
+The data went through dimensional modeling and was converted to star schema.
+
+The below was converted
+
+![Screenshot 2025-01-11 154557](https://github.com/user-attachments/assets/a49c747f-cb73-421e-9bc2-b242766e0c9d)
+
+to 
+
+![image](https://github.com/user-attachments/assets/aa3adb8e-4907-4026-a8bd-4be849e68a7f)
+
+ 
 DAX (Data Analysis Expressions): I applied DAX formulas to create calculated columns and measures, allowing for dynamic, on-the-fly calculations and time-based analysis.
 Interactive Dashboards: The dashboard offers a comprehensive view of key metrics, such as team statistics, and match outcomes across seasons and leagues. Visualizations were designed for clarity and ease of use, providing actionable insights.
