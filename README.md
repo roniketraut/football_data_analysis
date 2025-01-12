@@ -49,5 +49,11 @@ to
 ![image](https://github.com/user-attachments/assets/aa3adb8e-4907-4026-a8bd-4be849e68a7f)
 
  
-DAX (Data Analysis Expressions): I applied DAX formulas to create calculated columns and measures, allowing for dynamic, on-the-fly calculations and time-based analysis.
-Interactive Dashboards: The dashboard offers a comprehensive view of key metrics, such as team statistics, and match outcomes across seasons and leagues. Visualizations were designed for clarity and ease of use, providing actionable insights.
+DAX (Data Analysis Expressions): I applied DAX formulas to create calculated columns and measures, allowing for dynamic, on-the-fly calculations and time-based analysis. YoY, VARIABLES, TOPN, SWITCH, HASONEVALUE, FILTER, ADDCOLUMNS, SUMMARIZE, AVERAGEX, SUMX, etc were heavily used.
+
+![image](https://github.com/user-attachments/assets/1cea4024-d955-4706-9744-a3a65fd3f468)
+
+![image](https://github.com/user-attachments/assets/89466a73-fc7c-4295-af9f-77fd70e5549a)
+
+
+Interactive Dashboards: The dashboard offers a comprehensive view of key metrics, such as team statistics, and match outcomes across seasons and leagues. 
